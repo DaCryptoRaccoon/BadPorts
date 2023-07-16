@@ -68,7 +68,7 @@ Port	Name
 13	daytime
 ...	...
 
-    Note: The complete list of blocked ports can be found in the script file block_ports.sh.
+    Note: The complete list of blocked ports can be found in the script file BlockPorts.sh.
 
 License
 
