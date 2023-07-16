@@ -8,7 +8,22 @@
 </p>
 
 <p align="center">
-  This script is designed to block a list of "bad" ports using the UFW firewall. The list of ports consists of services that are usually not open to the public and may require authentication. By blocking these ports, you can prevent incoming connection attempts from Bitcoin nodes or other potential malicious actors.
+Introducing the "Block Ports with UFW Firewall" script! This powerful script is designed to protect your system by blocking a list of "bad" ports that are commonly targeted by malicious actors when Bitcoin Core opens outgoing P2P connections.
+
+When Bitcoin Core establishes connections with other peers on the P2P network, it selects a peer by considering its address and port from a list of potential peers. However, this list is vulnerable to unchecked data gossiped over the network, which can include misleading or non-existent addresses and ports.
+
+To mitigate potential risks, our script blocks these "bad" ports to ensure that connection attempts from Bitcoin nodes are prevented from reaching services that are unrelated to the Bitcoin network. These ports are typically associated with services that are not meant to be publicly accessible and often require authentication, making connection attempts to such services potentially malicious.
+
+By running this script and leveraging the UFW firewall, you fortify your system's security. It automatically denies access to the specified "bad" ports, effectively reducing the chances of receiving unwanted connections and providing peace of mind to ultra-paranoid administrators.
+
+With a comprehensive list of blocked ports, including commonly targeted services such as SSH (port 22), the script enhances your system's protection against potential threats. By focusing on blocking ports used by non-public services, the script minimizes the risk of unauthorized access while ensuring that connection attempts to public services that typically do not require authentication remain unaffected.
+
+Implementing this script empowers you to proactively safeguard your system, aligning with the best practices of Bitcoin Core security measures. By blocking these ports, you significantly reduce the potential exposure to malicious connection attempts and maintain a more secure environment.
+
+Take advantage of this script and fortify your system's defenses against potential threats by running it today. Shield your system from unauthorized access and enjoy enhanced security and peace of mind.
+
+See : https://github.com/bitcoin/bitcoin/blob/master/doc/p2p-bad-ports.md
+
 </p>
 
 ## Prerequisites
