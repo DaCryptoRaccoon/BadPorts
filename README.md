@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/DaCryptoRaccoon/block-ports-script">
-  <img src="https://img.shields.io/github/languages/top/DaCryptoRaccoon/block-ports-script">
+  <img src="https://img.shields.io/github/license/DaCryptoRaccoon/BadPorts">
+  <img src="https://img.shields.io/github/languages/top/DaCryptoRaccoon/BadPorts">
 </p>
 
 <p align="center">
