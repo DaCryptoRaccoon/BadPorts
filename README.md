@@ -47,13 +47,13 @@ cd block-ports-script
 
 bash
 
-chmod +x block_ports.sh
+chmod +x BlockPorts.sh
 
 🚦 Execute the script with administrative privileges:
 
 bash
 
-    sudo ./block_ports.sh
+    sudo ./BlockPorts.sh
 
     The script will enable UFW if it's not already enabled, block the specified ports, add comments labeling each blocked port, reload the UFW rules, and display the UFW status with the blocked ports.
 
