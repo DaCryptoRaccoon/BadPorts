@@ -35,13 +35,13 @@ See : https://github.com/bitcoin/bitcoin/blob/master/doc/p2p-bad-ports.md
 1. 🚀 Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/block-ports-script.git
+   git clone [https://github.com/your-username/block-ports-script.git](https://github.com/DaCryptoRaccoon/BadPorts.git)
 
     📂 Navigate to the project directory:
 
     bash
 
-cd block-ports-script
+cd BadPorts
 
 ⚙️ Make the script executable:
 
