@@ -77,5 +77,3 @@ This project is licensed under the MIT License.
   Made with ❤️ DaCryptoRaccoon
 </p>
 ```
-
-Feel free to replace your-username with your actual GitHub username and add your name in the "Made with ❤️ by Your Name" section at the bottom. You can further customize the README by adding images, badges, or any other elements you prefer.
